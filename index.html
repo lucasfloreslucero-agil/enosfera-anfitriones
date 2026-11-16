@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enosfera para anfitriones · Tu comunidad del vino en un solo lugar</title>
+<meta name="description" content="Enosfera es la comunidad del vino donde cada anfitrión reúne a sus miembros, los convoca a catas y visitas con cupo y cobra en pesos. Sumate a los primeros anfitriones.">
+<meta property="og:title" content="Enosfera para anfitriones">
+<meta property="og:description" content="Reuní a tu comunidad del vino en un solo lugar. Estamos armando Enosfera con los primeros anfitriones.">
+<meta property="og:type" content="website">
+<!-- En revisión: sacar esta línea cuando la landing esté lista para difundirse. -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Petrona:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@0.469.0/font/lucide.css">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/landing.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a href="#inicio" class="eno-logo" aria-label="Enosfera, ir al inicio"><svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true"><path d="M6.08 30 55.06 44A26 26 0 0 1 6.08 30Z" fill="var(--logo-liquid)"/><circle cx="32" cy="32" r="26" fill="none" stroke="var(--logo-ring)" stroke-width="6"/></svg><span style="font-size:22px">enosfera</span></a>
+    <a href="#sumate" class="eno-btn eno-btn--secondary eno-btn--sm top__cta" data-cta="encabezado">Quiero ser anfitrión</a>
+  </div>
+</header>
+
+<main>
+
+<!-- 1. HERO -->
+<section id="inicio" class="hero">
+  <svg class="hero__ronda" viewBox="0 0 400 400" aria-hidden="true"><path d="M38 187.500 344.125 275A162.500 162.500 0 0 1 38 187.500Z" fill="var(--arcilla-100)"/><circle cx="200" cy="200" r="162.500" fill="none" stroke="var(--piedra-200)" stroke-width="26"/></svg>
+  <div class="wrap hero__in">
+    <p class="eyebrow">Para anfitriones del vino</p>
+    <h1 class="h-hero" id="titular">Tu comunidad del vino, reunida en un solo lugar.</h1>
+    <p class="lead hero__sub">En Enosfera cada anfitrión reúne a sus miembros, los convoca a catas y visitas con cupo, y cobra en pesos con Mercado Pago. Todo ordenado y con tu nombre adelante.</p>
+    <div class="hero__cta">
+      <a href="#sumate" class="eno-btn eno-btn--primary" data-cta="hero">Quiero ser anfitrión<i class="eno-icon icon-arrow-right" style="font-size:18px" aria-hidden="true"></i></a>
+    </div>
+    <p class="hero__nota"><i class="eno-icon icon-hammer" aria-hidden="true"></i>Estamos armando Enosfera con los primeros anfitriones. Todavía no está abierta al público.</p>
+  </div>
+</section>
+
+<!-- 2. EL PROBLEMA -->
+<section class="sec problema" data-theme="dark">
+  <div class="wrap">
+    <p class="problema__l reveal">Tu comunidad ya existe.</p>
+    <p class="problema__l reveal">Está repartida entre Instagram, WhatsApp y transferencias.</p>
+    <p class="problema__l problema__l--acento reveal">Y organizarlo te saca tiempo.</p>
+  </div>
+</section>
+
+<!-- 3. CÓMO SE VE -->
+<section id="como-se-ve" class="sec sec--sunken">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Cómo se ve</p>
+      <h2 class="h-sec">Así se ve Enosfera para un anfitrión.</h2>
+      <p class="lead">Elegí lo que hacés y mirá un ejemplo. Después tocá el celular para recorrerlo como lo haría un miembro.</p>
+    </div>
+
+    <div class="roles reveal" role="group" aria-label="Elegí tu rol" id="roles"></div>
+
+    <div class="demo reveal">
+      <div class="demo__txt">
+        <span class="eno-tag eno-tag--neutral"><i class="eno-icon icon-info" aria-hidden="true"></i>Ejemplo ilustrativo</span>
+        <h3 class="h-card" id="demo-titulo">Cata de malbec de altura</h3>
+        <p class="demo__meta"><i class="eno-icon icon-calendar-days" aria-hidden="true"></i><span id="demo-fecha">Sáb 12 de diciembre · 19:00</span></p>
+        <p class="demo__meta"><i class="eno-icon icon-users" aria-hidden="true"></i><span><b id="demo-quedan">Quedan 6 lugares</b> <span id="demo-de">de 12</span></span></p>
+        <div class="bar" aria-hidden="true"><div id="demo-barra" style="width:50%"></div></div>
+        <ol class="pasos" aria-label="Recorrido de un miembro">
+          <li><button type="button" class="paso" data-paso="0" aria-current="step"><span>1</span>Entra a tu perfil</button></li>
+          <li><button type="button" class="paso" data-paso="1"><span>2</span>Reserva su lugar</button></li>
+          <li><button type="button" class="paso" data-paso="2"><span>3</span>Recibe la confirmación</button></li>
+        </ol>
+        <p class="xs tm">Las personas, las fechas y los precios del ejemplo son inventados.</p>
+      </div>
+
+      <div class="cel" aria-live="polite">
+        <div class="cel__bar"><span class="eno-logo"><svg width="18" height="18" viewBox="0 0 64 64" aria-hidden="true"><path d="M6.08 30 55.06 44A26 26 0 0 1 6.08 30Z" fill="var(--logo-liquid)"/><circle cx="32" cy="32" r="26" fill="none" stroke="var(--logo-ring)" stroke-width="6"/></svg><span style="font-size:15px">enosfera</span></span><span class="cel__ej">Ejemplo ilustrativo</span></div>
+        <div class="cel__pant" id="pantalla"></div>
+        <div class="cel__nav">
+          <button type="button" class="cel__flecha" id="cel-atras" aria-label="Pantalla anterior"><i class="eno-icon icon-arrow-left" aria-hidden="true"></i></button>
+          <span class="cel__puntos" aria-hidden="true"><i></i><i></i><i></i></span>
+          <button type="button" class="cel__flecha" id="cel-sig" aria-label="Pantalla siguiente"><i class="eno-icon icon-arrow-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. QUÉ PODÉS HACER -->
+<section class="sec">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Qué podés hacer</p>
+      <h2 class="h-sec">Empezás por juntar a tu gente.</h2>
+    </div>
+    <div class="cards">
+      <article class="card card--dest reveal">
+        <span class="eno-tag eno-tag--exclusivo"><i class="eno-icon icon-check" aria-hidden="true"></i>Lo primero que abrimos</span>
+        <span class="card__ico"><i class="eno-icon icon-calendar-days" aria-hidden="true"></i></span>
+        <h3 class="h-card">Convocar</h3>
+        <p>Armás experiencias con fecha y cupo: catas y visitas a bodegas, presenciales u online. Tus miembros reservan su lugar y la lista se arma sola.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card__ico"><i class="eno-icon icon-pen-line" aria-hidden="true"></i></span>
+        <h3 class="h-card">Compartir lo que sabés</h3>
+        <p>Publicás contenido gratis para que te conozcan: lo que probaste, lo que aprendiste, cómo viene la cosecha.</p>
+      </article>
+      <article class="card card--prox reveal" id="card-preventas">
+        <span class="eno-tag eno-tag--ultimos"><i class="eno-icon icon-clock" aria-hidden="true"></i>Próximamente</span>
+        <span class="card__ico"><i class="eno-icon icon-ticket" aria-hidden="true"></i></span>
+        <h3 class="h-card">Preventas</h3>
+        <p>Tu gente compra por anticipado y recibe su vino cuando está listo. Una forma de financiar tus vinos con tu propia comunidad.</p>
+        <button type="button" class="card__mas focusable" id="prev-abrir" aria-expanded="false" aria-controls="prev-panel">Me interesa<i class="eno-icon icon-chevron-down" aria-hidden="true"></i></button>
+        <div class="card__panel" id="prev-panel" hidden>
+          <p class="xs">Todavía no están disponibles. Si querés, te avisamos cuando abran. No te compromete a nada.</p>
+          <button type="button" class="eno-btn eno-btn--secondary eno-btn--sm" id="prev-avisame"><i class="eno-icon icon-bell" style="font-size:16px" aria-hidden="true"></i>Avisame</button>
+          <p class="xs card__ok" id="prev-ok" hidden role="status"><i class="eno-icon icon-circle-check" aria-hidden="true"></i>Anotado. Dejá tus datos <a href="#sumate">acá abajo</a> así sabemos a quién avisarle.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. COBRO -->
+<section class="sec sec--white">
+  <div class="wrap cobro">
+    <div class="reveal">
+      <p class="eyebrow">Cómo funciona el cobro</p>
+      <h2 class="h-sec">Cobrás en pesos y sabés cuánto te llega.</h2>
+    </div>
+    <ol class="cobro__l">
+      <li class="reveal"><i class="eno-icon icon-wallet" aria-hidden="true"></i><div><b>Tu miembro paga dentro de Enosfera</b><p>Con Mercado Pago, en pesos. Ve el precio final completo antes de pagar.</p></div></li>
+      <li class="reveal"><i class="eno-icon icon-landmark" aria-hidden="true"></i><div><b>Vos recibís tu parte directo en tu cuenta</b><p>No pasa por una cuenta de Enosfera.</p></div></li>
+      <li class="reveal"><i class="eno-icon icon-receipt-text" aria-hidden="true"></i><div><b>Enosfera cobra una comisión solo cuando vendés</b><p id="comision-txt">El porcentaje lo estamos definiendo con los primeros anfitriones. Lo vas a conocer antes de publicar nada.</p><p>Nunca hay sorpresas: vos y tu miembro ven el desglose completo.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 6. QUIÉNES -->
+<section class="sec">
+  <div class="wrap quienes">
+    <div class="reveal">
+      <p class="eyebrow">Quiénes la estamos armando</p>
+      <h2 class="h-sec">Nace en Mendoza, con anfitriones del vino.</h2>
+      <p class="lead">Detrás de cada botella hay personas, historias y cosas que se aprenden haciendo. Enosfera existe para que esa gente se encuentre.</p>
+    </div>
+    <div class="equipo reveal" id="equipo">
+      <div class="equipo__vacio">
+        <span class="equipo__hueco" aria-hidden="true"></span><span class="equipo__hueco" aria-hidden="true"></span><span class="equipo__hueco" aria-hidden="true"></span>
+        <p class="xs tm">Pronto vas a ver acá las caras de quienes la estamos armando y de los primeros anfitriones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. FORMULARIO -->
+<section id="sumate" class="sec sec--soft">
+  <div class="wrap form-wrap">
+    <div class="hoja" id="hoja">
+      <form id="form" class="form" novalidate>
+        <div>
+          <p class="eyebrow">Sumate</p>
+          <h2 class="h-sec">Sé de los primeros anfitriones.</h2>
+          <p class="t2">Dejanos cuatro datos y te escribimos. No te compromete a nada y no cuesta nada.</p>
+        </div>
+
+        <div class="eno-notice eno-notice--error" role="alert" id="n-campos" hidden><i class="eno-icon icon-circle-alert" aria-hidden="true"></i><div><b>Nos faltan un par de datos.</b><p>Fijate en los campos marcados y volvé a enviar.</p></div></div>
+        <div class="eno-notice eno-notice--error" role="alert" id="n-servidor" hidden><i class="eno-icon icon-circle-alert" aria-hidden="true"></i><div><b>No pudimos guardar tus datos.</b><p>Lo que escribiste sigue acá. Probá de nuevo en un ratito.</p></div></div>
+
+        <div class="eno-field" data-campo="nombre"><label for="f-nombre">Nombre</label><div class="eno-field__box"><input id="f-nombre" name="nombre" autocomplete="name" placeholder="Cómo te conocen"></div><span class="eno-field__hint" hidden></span></div>
+
+        <div class="grupo" role="group" aria-labelledby="l-rol" data-campo="rol">
+          <span class="grupo__l" id="l-rol">¿Qué sos?</span>
+          <div class="chips" data-chips="rol" data-modo="uno"></div>
+          <span class="err" hidden></span>
+        </div>
+
+        <div class="eno-field" data-campo="red"><label for="f-red">Instagram o web</label><div class="eno-field__box"><i class="eno-icon icon-link" aria-hidden="true"></i><input id="f-red" name="red" placeholder="@tu.usuario o tu sitio" autocapitalize="none" autocorrect="off"></div><span class="eno-field__hint" hidden></span></div>
+
+        <div class="eno-field" data-campo="contacto"><label for="f-contacto">WhatsApp o mail</label><div class="eno-field__box"><i class="eno-icon icon-message-circle" aria-hidden="true"></i><input id="f-contacto" name="contacto" placeholder="261 555 0123 o vos@ejemplo.com" autocapitalize="none" autocorrect="off"></div><span class="eno-field__hint" hidden></span></div>
+
+        <details class="mas" id="mas">
+          <summary class="focusable"><span><b>Contanos un poco más</b><small>Opcional. Nos ayuda a armar Enosfera a tu medida.</small></span><i class="eno-icon icon-chevron-down" aria-hidden="true"></i></summary>
+          <div class="mas__in">
+            <div class="dos">
+              <div class="grupo"><label for="f-prov" class="grupo__l">Provincia</label><select id="f-prov" name="provincia" class="ctl"><option value="">Elegí tu provincia</option></select></div>
+              <div class="grupo"><label for="f-ciudad" class="grupo__l">Ciudad</label><input id="f-ciudad" name="ciudad" class="ctl" autocomplete="address-level2"></div>
+            </div>
+            <div class="grupo" role="group" aria-labelledby="l-vende"><span class="grupo__l" id="l-vende">¿Qué vendés hoy? <small>Podés marcar varias.</small></span><div class="chips" data-chips="vende" data-modo="varios"></div></div>
+            <div class="grupo" role="group" aria-labelledby="l-cobra"><span class="grupo__l" id="l-cobra">¿Cómo cobrás hoy? <small>Podés marcar varias.</small></span><div class="chips" data-chips="cobra" data-modo="varios"></div></div>
+            <div class="grupo" role="group" aria-labelledby="l-recompra"><span class="grupo__l" id="l-recompra">De las personas que te compraron el último año, ¿cuántas volvieron a comprarte?</span><div class="chips" data-chips="recompra" data-modo="uno"></div></div>
+            <div class="grupo" role="group" aria-labelledby="l-convocar"><span class="grupo__l" id="l-convocar">¿Qué te gustaría convocar primero?</span><div class="chips" data-chips="convocar" data-modo="uno"></div></div>
+            <div class="grupo"><label for="f-quees" class="grupo__l">En tus palabras, ¿qué creés que es Enosfera?</label><textarea id="f-quees" name="que_es" class="ctl" rows="3" maxlength="400"></textarea></div>
+          </div>
+        </details>
+
+        <label class="eno-check"><input type="checkbox" id="f-escriban" name="quiere_contacto"><span class="eno-check__box"><i class="eno-icon icon-check" aria-hidden="true"></i></span><span>Quiero que me escriban para contarme más y probar Enosfera antes del lanzamiento.</span></label>
+
+        <div class="trampa" aria-hidden="true"><label for="f-sitio">No completes este campo</label><input id="f-sitio" name="sitio" tabindex="-1" autocomplete="off"></div>
+
+        <div>
+          <button type="submit" class="eno-btn eno-btn--primary eno-btn--block" id="enviar">Quiero ser de los primeros</button>
+          <p class="xs tm form__priv">Usamos tus datos solo para escribirte por Enosfera. No los compartimos con nadie.</p>
+        </div>
+      </form>
+
+      <div class="gracias" id="gracias" hidden tabindex="-1">
+        <span class="gracias__ico"><i class="eno-icon icon-circle-check" aria-hidden="true"></i></span>
+        <h2 class="h-sec">¡Gracias<span id="g-nombre"></span>!</h2>
+        <p class="lead">Ya estás en la lista de los primeros anfitriones. Te escribimos en los próximos días para conocerte y contarte cómo seguimos.</p>
+        <p class="t2">¿Conocés a otro anfitrión al que le puede servir? Pasale el link.</p>
+        <div class="gracias__acc">
+          <button type="button" class="eno-btn eno-btn--primary" id="compartir"><i class="eno-icon icon-share-2" style="font-size:18px" aria-hidden="true"></i>Compartir el link</button>
+          <a class="eno-btn eno-btn--secondary" id="compartir-wa" target="_blank" rel="noopener"><i class="eno-icon icon-message-circle" style="font-size:18px" aria-hidden="true"></i>Enviar por WhatsApp</a>
+        </div>
+        <p class="xs tm" id="copiado" hidden role="status">Link copiado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- 8. PIE -->
+<footer class="pie">
+  <div class="wrap">
+    <span class="eno-logo" role="img" aria-label="Enosfera"><svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true"><path d="M6.08 30 55.06 44A26 26 0 0 1 6.08 30Z" fill="var(--logo-liquid)"/><circle cx="32" cy="32" r="26" fill="none" stroke="var(--logo-ring)" stroke-width="6"/></svg><span style="font-size:22px">enosfera</span></span>
+    <p class="pie__prop">Crear vínculos humanos alrededor del mundo que existe detrás de cada botella.</p>
+    <div class="pie__links" id="pie-links">
+      <span class="pie__l"><i class="eno-icon icon-map-pin" aria-hidden="true"></i>Hecho en Mendoza, Argentina</span>
+    </div>
+    <p class="pie__priv"><b>Privacidad.</b> Los datos que dejás en el formulario los usamos solo para contactarte por Enosfera. No los vendemos ni los compartimos. Medimos de forma anónima cómo se usa esta página para mejorarla. Podés pedirnos que borremos tus datos cuando quieras.</p>
+    <div class="pie__fin"><span>Beber con moderación. Prohibida su venta a menores de 18 años.</span><span>© 2026 Enosfera</span></div>
+  </div>
+</footer>
+
+<div class="fijo" id="fijo" hidden>
+  <a href="#sumate" class="eno-btn eno-btn--primary eno-btn--block" data-cta="fijo">Quiero ser anfitrión</a>
+</div>
+
+<script src="contenido.js"></script>
+<script src="assets/js/landing.js"></script>
+</body>
+</html>
