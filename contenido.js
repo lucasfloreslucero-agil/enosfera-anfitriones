@@ -37,7 +37,7 @@ window.ENOSFERA = {
      Personas reales, con su permiso. Mientras la lista esté vacía,
      la página muestra un espacio reservado.
      Ejemplo de una persona:
-       { nombre: 'Nombre Apellido', rol: 'Sommelier · Mendoza', foto: 'assets/img/nombre.jpg' }
+       { nombre: 'Nombre Apellido', rol: 'Sommelier · Rosario', foto: 'assets/img/nombre.jpg' }
      La foto es opcional; sin foto se muestran las iniciales. */
   equipo: [
   ],
@@ -47,10 +47,10 @@ window.ENOSFERA = {
      cupos = lugares totales · quedan = lugares libres al abrir la página. */
   roles: [
     { id: 'sommelier', etiqueta: 'Sommelier',
-      nombre: 'Lucía Barrera', bajada: 'Sommelier · Luján de Cuyo, Mendoza',
+      nombre: 'Lucía Barrera', bajada: 'Sommelier · Rosario, Santa Fe',
       frase: 'Catas chicas, sin solemnidad, para probar y preguntar tranquilos.',
       experiencia: 'Cata de malbec de altura', tipo: 'Cata presencial',
-      fecha: 'Sáb 12 de diciembre', hora: '19:00', lugar: 'Chacras de Coria',
+      fecha: 'Sáb 12 de diciembre', hora: '19:00', lugar: 'Rosario, centro',
       cupos: 12, quedan: 6, precio: '$ 38.000' },
 
     { id: 'enologo', etiqueta: 'Enólogo',
@@ -61,17 +61,17 @@ window.ENOSFERA = {
       cupos: 10, quedan: 6, precio: '$ 45.000' },
 
     { id: 'productor', etiqueta: 'Productor',
-      nombre: 'Marta Quiroga', bajada: 'Productora · Lavalle, Mendoza',
+      nombre: 'Marta Quiroga', bajada: 'Productora · Cafayate, Salta',
       frase: 'Un parral de familia y vinos que hacemos en casa.',
       experiencia: 'Recorrida por el parral y cata al pie de la viña', tipo: 'Visita',
-      fecha: 'Dom 13 de diciembre', hora: '10:30', lugar: 'Lavalle',
+      fecha: 'Dom 13 de diciembre', hora: '10:30', lugar: 'Cafayate',
       cupos: 15, quedan: 6, precio: '$ 30.000' },
 
     { id: 'bodega', etiqueta: 'Bodega',
-      nombre: 'Finca Dos Acequias', bajada: 'Bodega familiar · Maipú, Mendoza',
+      nombre: 'Finca Dos Acequias', bajada: 'Bodega familiar · Pocito, San Juan',
       frase: 'Abrimos la bodega para los que quieren ver cómo trabajamos.',
       experiencia: 'Visita a la bodega con degustación de tanque', tipo: 'Visita a bodega',
-      fecha: 'Sáb 19 de diciembre', hora: '11:00', lugar: 'Maipú',
+      fecha: 'Sáb 19 de diciembre', hora: '11:00', lugar: 'Pocito',
       cupos: 20, quedan: 6, precio: '$ 35.000' },
 
     { id: 'divulgador', etiqueta: 'Divulgador',
